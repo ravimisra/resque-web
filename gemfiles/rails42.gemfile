@@ -7,10 +7,10 @@ gem "uglifier"
 gem "sqlite3"
 gem "dotenv-rails"
 gem "minitest-spec-rails"
-gem "coveralls", :require => false
+gem "coveralls", require: false
 gem "redcard"
-gem "mocha", :require => false
+gem "mocha", require: false
 gem "rails", "~> 4.2.0"
 gem "nokogiri", "~> 1.6.0"
 
-gemspec :path => "../"
+gemspec path: "../"
